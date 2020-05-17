@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ProjectTest">
+  <test name="TestingWebSite">
+     <classes>
+      <class name="testNGClasses.LogInWithoutReg"/>
+      <class name="testNGClasses.TestingAddNewProduct"/>
+       <class name="testNGClasses.TestingPrice"/>
+        <class name="testNGClasses.TestingRegistration"/>
+    </classes>
+  </test> <!-- TestingWebSite -->
+</suite> <!-- ProjectTest -->
